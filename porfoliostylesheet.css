@@ -311,6 +311,7 @@ flex-basis: 200%;
     .about-col-1 img{
         width:200%;
         margin-left: -30px;
+        box-shadow: 2px 0 0 white;
     }
     
     .about-col-2 .sub-title p{
@@ -328,7 +329,7 @@ flex-basis: 200%;
     
     }
     .tab-title{
-        margin-left: -20px;
+        margin-left: -30px;
         font-size: 5px;
         padding-right: 10px;
         justify-content: space-between;
@@ -341,7 +342,8 @@ flex-basis: 200%;
         flex-wrap: wrap;
        padding: 40px;
        background: #0a0000;
-       padding-bottom: 4px;
+       padding-bottom: 10px;
+       
        
     }
     .tab-contents{
@@ -367,10 +369,11 @@ flex-basis: 200%;
     margin-left: 50px;
     flex-basis: 100%;
    }
-   
-    
-    
-
-
 
 }
+#msg{
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+}
+
